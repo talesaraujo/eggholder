@@ -1,0 +1,9 @@
+generate an initial random population
+
+while (!stopcondition)
+    calculate the fitness of each individual
+    select the individuals according to their fitness
+    perform crossover with probability Pc
+    perform mutation with probability Pm
+    population <-- selected individuals after crossover and mutation
+end    
